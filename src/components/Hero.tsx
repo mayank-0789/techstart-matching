@@ -16,7 +16,7 @@ export const Hero = () => {
           <Button size="lg" asChild className="w-full sm:w-auto text-lg px-8 py-6 rounded-xl">
             <Link to="/signup">I'm a Founder</Link>
           </Button>
-          <Button size="lg" variant="outline" asChild className="w-full sm:w-auto text-lg px-8 py-6 rounded-xl">
+          <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
             <Link to="/signup">I'm a Developer</Link>
           </Button>
         </div>
