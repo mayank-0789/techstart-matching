@@ -20,12 +20,7 @@ export const Hero = () => {
           >
             <Link to="/signup">I'm a Founder</Link>
           </Button>
-          <Button 
-            size="lg" 
-            variant="outline" 
-            asChild 
-            className="w-full sm:w-auto text-xl px-12 py-8 rounded-xl hover:scale-105 transition-transform"
-          >
+          <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
             <Link to="/signup">I'm a Developer</Link>
           </Button>
         </div>
